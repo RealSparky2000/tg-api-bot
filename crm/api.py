@@ -41,10 +41,10 @@ async def add_lead(user_data):
         "fields": {
             "TITLE": "Заполенная анкета",
             "NAME": user_data["name"],
-            "COMMENTS": f"Telegram user ID: {user_data["tg_id"]}",
-            "UF_CRM_1743292532": user_data["age"],
-            "UF_CRM_1743292547": user_data["activity"],
-            "UF_CRM_1743292567": user_data["goal"],
+            "COMMENTS": f"Telegram user ID: {user_data['tg_id']}",
+            "UF_CRM_1743292532": user_data['age'],
+            "UF_CRM_1743292547": user_data['activity'],
+            "UF_CRM_1743292567": user_data['goal'],
             "UF_CRM_1743292559": user_data['average_income']
         }
     }
